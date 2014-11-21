@@ -34,10 +34,10 @@ object Run extends App {
   override def main(args: Array[String]): Unit = {
     val run = new Run
     run startup()
-    sys.ShutdownHookThread {
-      println( "++++++++++++++++++++++++++++++++ Exiting" )
-      run shutdown()
-    }
+//    sys.ShutdownHookThread {
+//      println( "++++++++++++++++++++++++++++++++ Exiting" )
+//      run shutdown()
+//    }
   }
 
 }
